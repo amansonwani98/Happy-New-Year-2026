@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year 2026 ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    padding: 30px 15px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #b30059;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 5px #ff9acb; }
+    to { text-shadow: 0 0 20px #ff2f92; }
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 160px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+button {
+    background: #b30059;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#message {
+    display: none;
+    margin-top: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="name">Mela Pyala Bacchaaa 💕</div>
+    <div class="subtitle">Happy New Year 2026 meri biwi jii ❤️</div>
+
+    <div class="photos">
+        <img src="photo1.jpg" alt="Our Memory 1">
+        <img src="photo2.jpg" alt="Our Memory 2">
+    </div>
+
+    <div class="card">
+        <p>Ek chhota sa surprise sirf aapke liye 💝</p>
+        <button onclick="showMessage()">Click karo jaan</button>
+
+        <div id="message">
+            <p>
+            Is naye saal me meri bas ek hi dua hai,  
+            aap hamesha aise hi muskurati raho.
+            </p>
+            <p>
+            Aap meri biwi hi nahi,  
+            meri duniya, meri shanti aur meri sabse badi khushi ho.
+            </p>
+            <p>
+            Happy New Year 2026 ❤️  
+            Har saal, har pal, sirf aapke saath ho bubuuuu.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        Made with aapke swami jii💖
+    </footer>
+
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("message").style.display = "block";
+}
+</script>
+</body>
+</html>
