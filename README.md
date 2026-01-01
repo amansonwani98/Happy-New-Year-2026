@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -109,8 +109,8 @@ footer {
             meri duniya, meri shanti aur meri sabse badi khushi ho bubuuu.
             </p>
             <p>
-            Happy New Year 2026 ❤️  
-            Har saal, har pal, sirf aapke saath.
+            Happy New Year 2026 ❤️ Meli Pyali Biwi Jii Ummmmmmmmaaaaaaa 😚 💗 
+            Har saal, har pal, sirf aapke saath mela bacchaaa.
             </p>
         </div>
     </div>
